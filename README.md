@@ -1,4 +1,4 @@
-# tomato_genomics_integration
+# kTom: kmers for profiling Tomato introgressions 
 
 ### Intro statement
 
