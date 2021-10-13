@@ -28,3 +28,11 @@ Using kmers (or any non-SNP approach) to tag introgressions would let us…
 
 - Paper: [Exploring genetic variation in the tomato clade by whole-genome sequencing, 100 Tomato Geome Sequencing(Consortium](https://onlinelibrary.wiley.com/doi/10.1111/tpj.12616)
 - Data on [ERA](https://www.ebi.ac.uk/ena/browser/view/PRJEB5235?show=reads)
+
+### Next steps
+
+* Consider different kmer size (k=21)
+* Method for cleaning individual samples (e.g. remove kmers where n=1)
+* Method for tabulating kmer frequency in a population
+	- Consider [Voicheck method](https://github.com/voichek/kmersGWAS/blob/master/manual.pdf)
+* Validation
