@@ -4,7 +4,7 @@
 
 Important traits for vegetable markets are often obtained by crossing elite breeding germplasm to wild vegetable lines that carry a trait of interest (for example, disease resistance or fruit flavor). The process of moving a genomic region from one species or distantly-related speices into another is called **introgression**. Genetic traits have been moved into cultivated tomatoes over the past several decades of tomato breeding.
 
-![Tomato breeding and diversity](images/Schouten-tom-breeding.jpeg)
+![Tomato breeding and diversity](images/Schouten-tom-breeding.jpeg){:height="150px"}
 
 Identifying and tracking introgressed traits in an important function of modern tomato breeding. Some introgressions can be completely defined by de novo sequencing and assembly, but this can be expensive or incomplete. Most marker sets today rely exclusively on SNPs, which don't always track diverse tomato genetics (Schouten, et al, 2019).
 
@@ -33,7 +33,7 @@ Using kmers (or any non-SNP approach) to tag introgressions would let us…
 ## Usage
 
 * [main.sh](scripts/main.sh): run FastQC, trim, and generate kmers for a single sample.
-* Create kmer frequency matrix for the population and filter.
+* [read_kmer_fasta.py](scripts/read_kmer_fasta.py): Create kmer presence/absence matrix for the population.
 * [kmer_heatmap.R](scripts/kmer_heatmap.R): vizualise kmer matrix.
 
 
