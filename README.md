@@ -35,6 +35,6 @@ Using kmers (or any non-SNP approach) to tag introgressions would let us…
 * Method for cleaning individual samples (e.g. remove kmers where n=1)
 * Method for tabulating kmer frequency in a population
 	- Consider [Voicheck method](https://github.com/voichek/kmersGWAS/blob/master/manual.pdf)
-* Validation
+* (Validation)[docs/TomatoHakathon_Validation.pptx]
 
 
