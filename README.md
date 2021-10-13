@@ -42,7 +42,7 @@ Using kmers (or any non-SNP approach) to tag introgressions would let us…
 - Paper: [Exploring genetic variation in the tomato clade by whole-genome sequencing, 100 Tomato Geome Sequencing(Consortium](https://onlinelibrary.wiley.com/doi/10.1111/tpj.12616)
 - Data on [ERA](https://www.ebi.ac.uk/ena/browser/view/PRJEB5235?show=reads) or [SRA](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB5235)
 
-![Phylogeny of 84 WGS lines from 100 Tomatos project](image/84-wgs-phylo.png)
+![Phylogeny of 84 WGS lines from 100 Tomatos project](images/84-wgs-phylo.png)
 
 ### Next steps
 
