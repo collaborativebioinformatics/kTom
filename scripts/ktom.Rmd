@@ -1,0 +1,48 @@
+---
+title: "kTom"
+author: "Team Tomato"
+date: "10/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(ComplexHeatmap)
+  library(InteractiveComplexHeatmap)
+  library(immunarch)
+})
+```
+
+## Kmers distribution
+
+```{r dist, fig.dim = c(15, 15), echo = FALSE, warning=FALSE}
+kmers_df <- getKmers(immdata$data, 31, .col = "nt", .coding = FALSE)
+kmers_df_mod <- kmers_df %>% 
+  mutate(hm_label = paste0("kmer", 1:nrow(kmers_df))) %>%
+  filter(rowMeans(is.na(.)) < 0.7) %>%
+  filter_all(any_vars(!is.na(.)))
+vis(kmers_df)
+```
+
+## Kmers frequency matrix
+
+```{r matrix, echo=FALSE}
+kmers_df_mod %>% select(-hm_label)
+```
+
+## Interactive heatmap matrix
+
+```{r, echo=FALSE}
+knitr::include_graphics("ss1.png")
+```
+
+### Sub heatmap
+
+```{r, echo=FALSE}
+knitr::include_graphics("ss2.png")
+```
