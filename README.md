@@ -33,7 +33,7 @@ Using kmers (or any non-SNP approach) to tag introgressions would let us…
 ## Usage
 
 * [main.sh](scripts/main.sh): run FastQC, trim, and generate kmers for a single sample.
-* Create kmer frequency matrix for the population and filter.
+* [read_kmer_fasta.py](scripts/read_kmer_fasta.py) Create kmer frequency matrix for the population.
 * [kmer_heatmap.R](scripts/kmer_heatmap.R): vizualise kmer matrix.
 
 
