@@ -1,5 +1,12 @@
 # kTom: kmers for profiling Tomato introgressions 
 
+Adam Festa
+ChiaSin Liew
+Sina Majidian
+Xuefeng Zhou
+Jaishree Chittoor
+Rebecca Lowdon
+
 ### Intro statement
 
 Important traits for vegetable markets are often obtained by crossing elite breeding germplasm to wild vegetable lines that carry a trait of interest (for example, disease resistance or fruit flavor). The process of moving a genomic region from one species or distantly-related speices into another is called **introgression**. Genetic traits have been moved into cultivated tomatoes over the past several decades of tomato breeding.
